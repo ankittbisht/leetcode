@@ -24,7 +24,7 @@ class Solution
 {
     //Function to count nodes of a linked list.
     public static int getCount(Node head)
-    {   size = 0;
+    {   int size = 0;
         Node temp = head;
         while(temp!=null){
             size++;
@@ -32,7 +32,6 @@ class Solution
         }
         return size; 
     }
-    public static int size;
 }
     
 
