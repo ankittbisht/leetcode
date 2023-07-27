@@ -74,10 +74,14 @@ class Solution
     void display(Node head)
     {
         //add code here.
-        Node temp = head;
-        while(temp!=null){
-            System.out.print(temp.data + " ");
-            temp = temp.next;
+        if(head == null){
+            return;
         }
+        Node curr = head;
+        while(curr!= null){
+            System.out.print(curr.data+" ");
+            curr = curr.next;
+        }
+        
     }
 }
